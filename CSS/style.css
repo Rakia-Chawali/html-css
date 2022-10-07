@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald&display=swap");
+body {
+  font-family:'Roboto', sans-serif ;
+  padding: 2%;
+  margin: 0%;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0%;
+}
+nav .profile {
+  display: flex;
+  align-items: center;
+}
+nav .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+nav .profile h1 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li {
+  margin-left: 20px;
+  cursor: pointer;
+  border-bottom: 1px;
+}
+nav ul li:hover {
+  background-color: gold;
+}
+.page-content {
+  margin: 4%;
+}
+.page-content header {
+  margin-top: 5%;
+  max-width: 80%;
+}
+.page-content header h2 {
+  margin: 0%;
+  text-transform: uppercase;
+  font-family:'Roboto', sans-serif ;
+  font-size: 5vw;
+}
+.page-content header p {
+  line-height: 30px;
+  color: dimgrey;
+}
+.page-content header button {
+  background-color: inherit;
+  border: none;
+  padding: 0%;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 1px solid #ccc;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.page-content header button:hover {
+  color: gray;
+  border-bottom-color: black;
+}
+.image {
+  margin: 5%;
+  max-width: 400px;
+  height: auto;
+}
+.image:hover {
+  filter: brightness(50%);
+  transition: 0, 5s;
+}
+.project {
+  margin: 6%;
+  display: block;
+  flex-wrap: wrap;
+  /* max-width: 180px; */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.project h4 {
+  font-family:'Roboto', sans-serif  ;
+  font-size: 2vw;
+}
+.project .title {
+  /* display: flex;
+  flex-wrap: wrap; */
+  max-width: 100%;
+}
+.project .title {
+ margin-right: 80px;
+  flex-wrap: wrap;
+  max-width: 195px;
+  display:inline-block;
+ 
+
+}
+#brand, h4{
+  display: inline;
+  margin-right: 1px;
+  width: 50px;
+  height: 50px;
+ 
+}
+
+
+
+
+#photoshop, h4{
+  display: inline;
+  margin-right: 1px;
+  width: 50px;
+  height: 50px;
+  }
+
+  #web, h4{
+  display: inline;
+  margin-right: 1px;
+  width: 50px;
+  height: 50px;
+  }
+  #button{
+    display: block;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: #ccc;
+    color: black;
+    border-radius: 7%;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    cursor: grabbing;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .none{
+     width: 80%;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 50px;
+  
+  
+  max-width: 100%;
+}
+
+  #cook{
+margin-top: 80px;
+font-weight: bold;
+text-transform: uppercase;
+  background-color: gold;
+  }
+ .pic{
+   color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  text-align: right;
+ footer{
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+  
+ }
+  
+
+}
+
+
+
+
+
+ 
+  
